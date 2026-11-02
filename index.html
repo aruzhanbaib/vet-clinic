@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b6b45">
+  <title>ВетКлиника 24/7 — забота о питомцах</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ВетКлиника — на главную">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <circle cx="7" cy="7" r="2.2" fill="currentColor"/>
+        <circle cx="12" cy="5.5" r="2.2" fill="currentColor"/>
+        <circle cx="17" cy="7" r="2.2" fill="currentColor"/>
+        <path d="M12 10c-3.2 0-5.8 2.3-5.8 5.2 0 2.1 1.7 3.8 3.8 3.8 1 0 1.5-.4 2-.4s1 .4 2 .4c2.1 0 3.8-1.7 3.8-3.8C17.8 12.3 15.2 10 12 10Z" fill="currentColor"/>
+      </svg>
+      <span>ВетКлиника <strong>24/7</strong></span>
+    </a>
+
+    <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Открыть меню">
+    <label class="nav-toggle-label" for="nav-toggle">
+      <span class="burger" aria-hidden="true"></span>
+      <span class="visually-hidden">Меню</span>
+    </label>
+
+    <nav class="site-nav" aria-label="Основная навигация">
+      <a href="#services">Услуги</a>
+      <a href="#staff">Врачи</a>
+      <a href="#appointment">Запись</a>
+    </nav>
+
+    <a class="button button--accent header-cta" href="tel:+77001234567" aria-label="Вызвать врача 24/7">
+      <span class="header-cta__long">Вызвать врача </span>24/7
+    </a>
+  </header>
+
+  <main id="top">
+
+    <section class="hero" aria-labelledby="hero-title">
+      <article class="hero__content">
+        <p class="eyebrow">Ветеринарная клиника в Алматы</p>
+        <h1 id="hero-title">Профессиональная забота о ваших питомцах</h1>
+        <p>Терапия, хирургия, вакцинация и круглосуточная помощь. Запишитесь онлайн за пару минут.</p>
+        <a class="button button--primary" href="#appointment">Записаться на приём</a>
+      </article>
+    </section>
+
+    <section id="services" class="section" aria-labelledby="services-title">
+      <header class="section__header">
+        <h2 id="services-title">Направления лечения</h2>
+        <p>Полный спектр ветеринарных услуг для кошек, собак и экзотических питомцев.</p>
+      </header>
+
+      <ul class="card-grid">
+        <li>
+          <article class="card">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 21s-7-4.4-9-9.2C1.5 7.7 4 4 7.8 4c2 0 3.4 1.2 4.2 2.3C12.8 5.2 14.2 4 16.2 4 20 4 22.5 7.7 21 11.8 19 16.6 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+            <h3>Терапия</h3>
+            <p>Диагностика, лечение внутренних болезней и наблюдение за хроническими состояниями.</p>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M7 4l4 4-3 3-4-4 3-3Zm10 10 3 3-4 4-3-3 4-4Z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M9 13l6-6M8 16l2 2M16 8l2 2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+            <h3>Хирургия</h3>
+            <p>Плановые и экстренные операции, стерилизация, стоматология и послеоперационный уход.</p>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M8 3v4l-4 4 8 8 8-8-4-4V3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M12 11v8M8 15h8" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+            <h3>Вакцинация</h3>
+            <p>Индивидуальный график прививок, чипирование и профилактические осмотры.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section id="staff" class="section section--alt" aria-labelledby="staff-title">
+      <header class="section__header">
+        <h2 id="staff-title">Наши врачи</h2>
+        <p>Команда с опытом работы более 8 лет и постоянным повышением квалификации.</p>
+      </header>
+
+      <ul class="staff-grid">
+        <li>
+          <article class="staff-card">
+            <h3>Айгерим Смагулова</h3>
+            <p>Ветеринар-терапевт. Специализация: кардиология и гастроэнтерология.</p>
+          </article>
+        </li>
+        <li>
+          <article class="staff-card">
+            <h3>Данияр Оспанов</h3>
+            <p>Ветеринарный хирург. Плановые операции и экстренная помощь.</p>
+          </article>
+        </li>
+        <li>
+          <article class="staff-card">
+            <h3>Мария Ким</h3>
+            <p>Ветеринар-дерматолог. Аллергии, дерматиты и профилактика.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section id="appointment" class="section appointment" aria-labelledby="appointment-title">
+      <header class="section__header">
+        <h2 id="appointment-title">Запись на приём</h2>
+        <p>Оставьте данные — администратор свяжется с вами для подтверждения времени.</p>
+      </header>
+
+      <form class="form" action="#" method="post">
+        <label class="field">
+          <span>Кличка питомца</span>
+          <input type="text" name="pet-name" placeholder="Например, Барсик" required autocomplete="off">
+        </label>
+
+        <label class="field">
+          <span>Вид питомца</span>
+          <select name="pet-species" required>
+            <option value="" disabled selected>Выберите вид</option>
+            <option value="cat">Кошка</option>
+            <option value="dog">Собака</option>
+            <option value="exotic">Экзотический питомец</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Телефон владельца</span>
+          <input type="tel" name="owner-phone" placeholder="+7 700 000 00 00" required pattern="[+0-9()\s-]{10,20}" autocomplete="tel">
+        </label>
+
+        <label class="field">
+          <span>Email владельца</span>
+          <input type="email" name="owner-email" placeholder="mail@example.com" required autocomplete="email">
+        </label>
+
+        <label class="field">
+          <span>Дата приёма</span>
+          <input type="date" name="appointment-date" required>
+        </label>
+
+        <button class="button button--primary form__actions" type="submit">Записаться на приём</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contacts">
+    <section class="footer-grid" aria-label="Контакты и информация">
+      <article>
+        <h2>Экстренная помощь</h2>
+        <p><a href="tel:+77001234567">+7 700 123 45 67</a></p>
+        <address>г. Алматы, ул. Абая, 10<br>Круглосуточно</address>
+      </article>
+
+      <nav aria-label="Навигация в подвале">
+        <h2>Разделы</h2>
+        <a href="#services">Услуги</a>
+        <a href="#staff">Врачи</a>
+        <a href="#appointment">Запись</a>
+      </nav>
+
+      <article>
+        <h2>Мессенджеры</h2>
+        <p><a href="https://wa.me/77001234567">WhatsApp</a></p>
+        <p><a href="https://t.me/vetclinic">Telegram</a></p>
+      </article>
+
+      <article>
+        <h2>Правовая информация</h2>
+        <small>© 2026 ВетКлиника 24/7. Все права защищены. Информация на сайте не является публичной офертой.</small>
+      </article>
+    </section>
+
+    <label class="theme-switch" for="theme-toggle">
+      <span>Тёмная тема</span>
+      <input class="theme-toggle" id="theme-toggle" type="checkbox">
+    </label>
+
+    <small class="copyright">Сделано в рамках лабораторной работы ICT6001</small>
+  </footer>
+
+</body>
+</html>
